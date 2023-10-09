@@ -1,0 +1,83 @@
+<html>
+    <head>
+        <style>
+            body{
+                font-family: 'Courier New', Courier, monospace;
+                color: white;
+                background-image: url(Untitled\ design.png);
+                size: 100%;
+
+            }
+            .create{
+                background-color: black;
+                border-style: solid ;
+                border-color: red;
+                padding: 100px 100px;
+                text-align: center;
+
+            }
+            input[type=text]{
+                width: 30%;
+                background-color: red;
+                color: white;
+            }
+            input[type=password]{
+                width: 30%;
+                background-color: red;
+                color: white;
+            }
+            input[type=submit]{
+                color: white;
+                background-color: red;
+                border-radius: 10px;
+                border: none;
+                width: 30%;
+            }
+            .create a{
+                color: grey;
+                text-decoration:none;
+            }
+            .create a:hover{
+                color: red;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="create">
+            <h1 ID="create">    
+                CREATE AN ACCOUNT
+            </h1>
+            <hr>
+            <label for="email">Enter your First name</label><br>
+            <input type="text" name="Fname" placeholder="Enter First name">
+            <br><br>
+            <label for="email">Enter your last name</label>
+            <br>
+            <input type="text" name="Lname" placeholder="Enter Last name">
+            <br>
+            <br>
+            <label for="email">Enter your mail</label>
+            <br>
+            <input type="text" name="email" placeholder="example@mail.com">
+            <br>
+            <br>
+            <label for="pass">Enter password</label>
+            <br>
+            <input type="password" name="pass" placeholder="use a strong password">
+            <br>
+            <br>
+            <label for="rpass">Re enter your password</label>
+            <br>
+            <input type="password" name="rpass" placeholder="use the same password">
+            <br>
+            <br>
+            <input type="checkbox" name="terms">
+            <label for="terms">You agree to our terms and privacy policy</label>
+            <br>
+            <hr>
+            <input type="submit" name="Signup" value="CREATE ACCOUNT">
+            <br><br>
+            <a href="homepage.html" id="goback">Go back to HomePage</a>
+        </div> 
+    </body>
+</html>

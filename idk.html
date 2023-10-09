@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>sign in</title>
+        <style>
+            body{
+    font-family:'Courier New', Courier, monospace;
+    color: red;
+    
+}
+.login {
+    text-align: center;
+    padding: 100px 100px;
+    border-style: solid;
+    background-color: black;
+    overflow: hidden;
+    font-family: 'Courier New', Courier, monospace;
+}
+.login a{
+    text-decoration: none;
+    color: grey;
+    padding: 10px;
+}
+.login a:hover{
+    color: red;
+}
+input[type=text]{
+    width: 30%;
+    height: 10%;
+    background-color: red;
+    color: white;
+
+}
+input[type=text]:focus {
+    background-color: black;
+    color: red;
+}
+input[type=password]{
+    width: 30%;
+    height: 10%;
+    background-color: red;
+    color: white;
+}
+input[type=password]:focus {
+    background-color: black;
+    color: red;
+}
+input[type=submit]{
+    background-color: red;
+    border: none;
+    font-size: medium;
+    color: grey;
+
+}
+#goback{
+    color: grey;
+    text-decoration:none ;
+    text-align: center;
+}
+
+
+        </style>
+    </head>
+    <body background="Untitled design.png">
+        <div class="login">
+            <hr>
+            <form>
+                <h1 id="Lhead">Hello, Welcome to LuxyMotos!!</h1>
+                <div><a href="signin.html" target="_self">First time here? create an Account!</a></div><br>
+                <div class="main">
+                <input type="text" placeholder="Enter your Username/Mail/Phonenumber" id="uname" name="Us">
+                <br><br>
+                <input type="checkbox" name="remember"><label for="remember">Remember me?</label>
+                <br><br><br>
+                <input type="password" placeholder="Enter your password!" name="ps">
+                <br><br><br>
+                <input type="submit" name="login" value="login"> 
+                </div>
+            </form>
+            <hr>
+            <a href="homepage.html" id="goback">Go back to HomePage</a>
+        </div>
+    </body>
+</html>

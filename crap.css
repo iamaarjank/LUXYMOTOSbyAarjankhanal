@@ -1,0 +1,174 @@
+body{
+    background-color: black;
+    color: white;
+    font-family:'Courier New', Courier, monospace;
+}   
+#HEADING{
+    padding: 200px 10px;
+    font-size: 80px;
+    text-align: center;
+}
+#banner{
+    border-style: solid;
+    border-color: red;
+}
+.container{
+    position: relative;
+    color: white;
+    text-align: center;
+    overflow:hidden;
+}
+.text{
+    position: absolute;
+    top: 10%;
+    left: 60%;
+    transform: translate(-90%, -40%);
+    text-decoration: underline red 5px;
+}   
+.aboutus{
+    float: right;
+    background-color: black;
+    border-style: solid ;
+    color: red;
+    overflow: hidden;
+    max-width: 400px;
+    max-height: 1400px;
+    text-align: justify;
+}
+#heading1{
+    color: wheat;
+    text-decoration: underline red;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+#login{
+    color: red;
+    
+}
+#supra{
+    height: 200px;
+    width: 400px;
+    top: 20PX;
+    left: 20px;
+    border-style: solid;
+    border-color: black;
+    color: red;
+    text-decoration: none;
+}
+#mclaren{
+    height: 200px;
+    width: 400px;
+    top: 20PX;
+    left: 20px;
+    border-style: solid;
+    border-color: black;
+    color: red;
+    text-decoration: none;
+}
+
+.flexbox{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: space-between;
+    text-decoration: none;
+}
+.top{
+    display: flex;
+    flex-direction: column;
+}
+.navbar{
+    overflow:hidden;
+    background-color:black;
+    color: red;
+    border-color: red;
+    border-style: solid;
+    margin: 10px;
+}
+.navbar a{
+    float: left;
+    overflow: hidden;
+    font-family:'Courier New', Courier, monospace;
+    color: white;
+    font-size: 20PX;
+    text-decoration: none;
+    text-align: center;
+    padding: 14px 60px;
+}
+.navbar a:hover{
+    background-color: red;
+    color: white;
+}
+.navbar a:active{
+    background-color: white;
+    color: red;
+}
+
+.flexbox{
+    color: red;
+    text-decoration: none;
+}
+#lambo{
+    height: 200px;
+    width: 400px;
+    top: 20PX;
+    left: 20px;
+    border-style: solid;
+    border-color: black;
+    color: red;
+    text-decoration: none;
+}
+.flexbox1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#ferrari{
+    height: 200px;
+    width: 400px;
+    top: 20PX;
+    left: 20px;
+    border-style: solid;
+    border-color: black;
+    color: red;
+    text-decoration: none;
+}
+#mustang{
+    height: 200px;
+    width: 400px;
+    top: 20PX;
+    left: 20px;
+    border-style: solid;
+    border-color: black;
+    color: red;
+    text-decoration: none;
+}
+#GTR{
+    height: 200px;
+    width: 400px;
+    top: 20PX;
+    left: 20px;
+    border-style: solid;
+    border-color: black;
+    color: red;
+    text-decoration: none;
+}
+
+
+
+input[type=text]{
+    float: right;
+    height: 31px;
+    padding: 10px 10px;
+    background-color: black; 
+    color: white;
+    border: none;
+    width: 300px;
+    font-size: large;
+}
+
+input[type=text]:focus{
+    background-color: red;
+    color: black;
+    border: none;
+}
